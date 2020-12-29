@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+    document.addEventListener('DOMContentLoaded', function(){
     var search = document.querySelector('.search');
     const srch = document.querySelector('.srch');
     srch.addEventListener('click', function(){
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
     });
     let coordOfquestTop = document.querySelector('#quest').getBoundingClientRect().top-145;
     console.log(coordOfquestTop);
-    let coordOfquestLeft = document.querySelector('#quest').getBoundingClientRect().left-43;
+    let coordOfquestLeft = document.querySelector('#quest').getBoundingClientRect().left-44;
     console.log(coordOfquestLeft);
     document.querySelector('.hint').style.left = `${coordOfquestLeft}px`;
     document.querySelector('.hint').style.top = `${coordOfquestTop}px`;

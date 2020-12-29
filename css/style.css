@@ -9,12 +9,12 @@ body {
   font-family: 'Roboto', sans-serif;
   width: 100vw;
   height: 100vh;
-  justify-content: center;
+  justify-content: start;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #EDEEF0;
-  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 body header {
@@ -348,6 +348,7 @@ body header {
   height: 379px;
   width: 320px;
   padding: 25px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -358,7 +359,7 @@ body header {
 .first-time-title {
   width: 270px;
   margin-top: -4px;
-  height: 23px;
+  height: 18px;
   font-size: 20px;
   text-align: center;
 }
@@ -367,7 +368,8 @@ body header {
   color: #656565;
   font-size: 13px;
   position: relative;
-  bottom: -2px;
+  height: 10px;
+  top: -5px;  
   font-weight: 300;
 }
 
@@ -455,7 +457,7 @@ select {
 }
 
 .second-form {
-  margin-top: 25px;
+  margin-top: 18px;
 }
 
 .faceb {
