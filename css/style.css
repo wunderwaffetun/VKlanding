@@ -742,7 +742,10 @@ footer {
     border: 1px solid #ced2d6;
     height: 40px;
   }
-
+  .second-continue:hover{
+    color: white;
+    background-color: #7da2cf; 
+  }
   .faceb {
     position: relative;
     height: 18px;
@@ -789,7 +792,11 @@ footer {
     border: solid 1px white;
     border-radius: 30px;
   }
-  
+  /* угачание скролла */
+  body::-webkit-scrollbar{
+    width: var( ::-webkit-scrollbar);
+  }
+  /**/
   .install_app{
     margin-top: 0;
   }

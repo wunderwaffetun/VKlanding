@@ -22,4 +22,6 @@
     document.querySelector('#quest').addEventListener('mouseout', function(){
         document.querySelector('.hint').classList.remove('opacity1');
     });
+    //Плавное угасание скролла
+    document.body.style.setProperty("--scrollbar-width", "100px")
 });
